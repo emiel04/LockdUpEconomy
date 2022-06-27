@@ -1,0 +1,19 @@
+name: EscLockupEconomy
+version: '${project.version}'
+main: me.emiel.esclockupeconomy.EscLockupEconomy
+api-version: 1.19
+authors: [ Emiel ]
+description: Manages the coins for esclockup
+commands:
+  coin:
+    description: Get an amount of coins
+    usage: "/getcoin <coin / coinplus> <amount>"
+    aliases: [givecoin, getcoin]
+  coinamount:
+    description: Get how much coins you have in your inventory.
+    usage: "/coinamount"
+    aliases: [bal, balance]
+  removecoins:
+    description: Removes coins from a players inventory.
+    usage: "/removecoins <player> <amount>"
+    aliases: [rc]
