@@ -9,11 +9,14 @@ commands:
     description: Get an amount of coins
     usage: "/getcoin <coin / coinplus> <amount>"
     aliases: [givecoin, getcoin]
+    permission: lockdupeconomy.getcoin
   coinamount:
     description: Get how much coins you have in your inventory.
     usage: "/coinamount"
     aliases: [bal, balance]
+    permission: lockdupeconomy.balance
   removecoins:
     description: Removes coins from a players inventory.
     usage: "/removecoins <player> <amount>"
-    aliases: [rc]
+    aliases: [rc, delcoins]
+    permission: lockdupeconomy.removecoins
