@@ -60,8 +60,6 @@ public class Coin {
             itemMeta.getPersistentDataContainer().set(nk, PersistentDataType.STRING, "coinplus");
 
         }
-
-
         itemStack.setItemMeta(itemMeta);
 
         return itemStack;

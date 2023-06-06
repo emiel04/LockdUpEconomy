@@ -17,7 +17,6 @@ import java.util.Map;
 
 public class CoinManager {
 
-
     public static void GiveCoin(Player player, int amount) {
         java.util.HashMap<Integer, ItemStack> didnotfit = player.getInventory().addItem(Coin.getCoin(amount));
     }
